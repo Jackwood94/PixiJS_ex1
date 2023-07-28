@@ -1,7 +1,6 @@
 import * as PIXI from "./pixi.min.mjs";
 import {Sprite, Application, Graphics} from "./pixi.min.mjs";
 
-// const app = new PIXI.Application();
 const app = new PIXI.Application({
     width: window.innerWidth,
     height: window.innerHeight,
