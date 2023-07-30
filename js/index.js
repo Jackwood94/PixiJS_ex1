@@ -7,7 +7,7 @@ const app = new PIXI.Application({
     antialias: true,
     transparent: false,
     resolution: 1,
-    background: 0xA0A0A0,
+    background: 0xB0B0B0,
   });
   
   // Добавляем холст PIXI.js на страницу
