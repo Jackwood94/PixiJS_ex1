@@ -17,10 +17,6 @@ const app = new PIXI.Application({
   const container = new PIXI.Container();
   app.stage.addChild(container);
   
-  // Создаем спрайт для фонового изображения
-//   const background = PIXI.Sprite.from('background.png');
-//   container.addChild(background);
-  
   // Создаем текстовый элемент
   const text = new PIXI.Text('Адаптивный интерфейс', {
     fontSize: 48,
