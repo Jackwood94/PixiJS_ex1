@@ -6,7 +6,7 @@ const app = new PIXI.Application({
     height: window.innerHeight,
     antialias: true,
     transparent: false,
-    resolution: 1,
+    resolution: 0,
     background: 0xB0B0B0,
   });
   
