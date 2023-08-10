@@ -4,7 +4,7 @@ import {Sprite, Application, Graphics} from "./pixi.min.mjs";
 const app = new PIXI.Application({
     width: window.innerWidth,
     height: window.innerHeight,
-    antialias: true,
+    antialias: false,
     transparent: false,
     resolution: 0,
     background: 0xB0B0B0,
