@@ -29,8 +29,8 @@ const app = new PIXI.Application({
   // Функция для обновления размеров элементов при изменении размера окна
   function resize() {
     app.renderer.resize(window.innerWidth, window.innerHeight);
-    // background.width = app.screen.width;
-    // background.height = app.screen.height;
+    background.width = app.screen.width;
+    background.height = app.screen.height;
     text.position.set(app.screen.width / 2, app.screen.height / 2);
   }
   
