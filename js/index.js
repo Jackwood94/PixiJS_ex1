@@ -19,7 +19,7 @@ const app = new PIXI.Application({
   
   // Создаем текстовый элемент
   const text = new PIXI.Text('Адаптивный интерфейс', {
-    fontSize: 48,
+    fontSize: 62,
     fill: 'white',
   });
   text.anchor.set(0.5);
