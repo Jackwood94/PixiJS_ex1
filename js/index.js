@@ -9,8 +9,7 @@ const app = new PIXI.Application({
     resolution: 0,
     background: 0xB0B0B0,
   });
-  
-  // Добавляем холст PIXI.js на страницу
+
   document.body.appendChild(app.view);
   
   // Создаем контейнер для интерфейсных элементов
