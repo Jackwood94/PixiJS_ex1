@@ -36,7 +36,6 @@ const app = new PIXI.Application({
   // Обработчик события изменения размера окна
   window.addEventListener('resize', resize);
   
-  // Вызываем функцию resize() при запуске приложения
   app.loader.load(() => {
     resize();
   });
